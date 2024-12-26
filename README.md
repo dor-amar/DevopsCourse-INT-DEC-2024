@@ -21,9 +21,8 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 8   | Linux       |        [Directories](modules/module-2-linux/directories.md)                            |   |                 |  |
 | 9   | Linux       |        [Everything is a File !](modules/module-2-linux/everything-is-a-file.md)        |   |                 |  |
 | 10  | Linux       |        [The sudo command](modules/module-2-linux/sudo.md)                              |   |                 |  |
-| 10  | Linux       |                                                                                        |   |       [Hands-On Lab📝](labs/linux-1.md)        |    |
-
-
+| 11  | Linux       |                                                                                        |   |  [Hands-On Lab📝](labs/linux-1.md)               |    |
+| 12  | Linux       |                                                                                        |   |  [Quiz Time !📝 ](quizes/linux-quiz-1.md)        |    |
 
 
 ## How to Use This Repository
@@ -34,6 +33,8 @@ This course is designed to provide students with a deep understanding of DevOps 
 4. **Exercises**: Complete the labs in each module to reinforce your learning.
 
 ---
+### This guide will help you submit your answers for quizes 
+[How to submit quizes ?](modules/module-1-intro/submitting-pr.md) 
 
 ## Additional Content will be uploaded to our system
 
