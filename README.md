@@ -9,10 +9,17 @@ This course is designed to provide students with a deep understanding of DevOps 
 
 ## Course Structure
 
-| #   | Topic               | Tutorial                                                                                       | Resources | Project                               |
-|-----|---------------------|-----------------------------------------------------------------------------------------------|-----------|---------------------------------------|
-| 1   | Getting Started     | [Welcome to the DevOps Course!](modules/intro/getting-started.md)                                     | ✅        |                                       |
-| 2   | What is Devops ?    | [What is DevOps?](modules/intro/lesson-what-is-devops.md)                                     | ✅        |                                       |
+| #   | Topic               | Tutorial                                                                                       | Resources | Lab                               | Project                             |
+|-----|---------------------|-----------------------------------------------------------------------------------------------|-----------|-----------------------------------|-------------------------------------|
+| 1   | Getting Started     | [Welcome to the DevOps Course!](modules/module-1-intro/getting-started.md)                     | ✅        |                                   |                                     |
+| 2   | Intro               | [What is DevOps?](modules/module-1-intro/lesson-what-is-devops.md)                             | ✅        |                                   |                                     |
+| 3   | Virtualization       | [Virtualization](modules/module-1-intro/virtualisation.md)                                     | ✅        |                                   |                                     |
+| 4   | Virtualization       |                | ✅    |               [Creating our first VM](labs/creating-our-first-vm.md)                    |  |
+
+
+
+
+
 
 
 ## How to Use This Repository
