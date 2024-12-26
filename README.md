@@ -21,7 +21,7 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 8   | Linux       |        [Directories](modules/module-2-linux/directories.md)                            |   |                 |  |
 | 9   | Linux       |        [Everything is a File !](modules/module-2-linux/everything-is-a-file.md)        |   |                 |  |
 | 10  | Linux       |        [The sudo command](modules/module-2-linux/sudo.md)                              |   |                 |  |
-| 10  | Linux       |                                                                                        |   |       [📝](labs/linux-1.md)        |    |
+| 10  | Linux       |                                                                                        |   |       [Hands-On Lab📝](labs/linux-1.md)        |    |
 
 
 
