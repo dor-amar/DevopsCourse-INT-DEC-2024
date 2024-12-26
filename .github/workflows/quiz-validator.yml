@@ -4,7 +4,6 @@ on:
   pull_request:
     paths:
       - "quizzes/*"
-
 jobs:
   validate-quiz:
     runs-on: ubuntu-latest
