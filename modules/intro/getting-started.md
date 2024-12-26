@@ -1,4 +1,4 @@
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/5cf483bb-7251-4d87-92c7-8e49b75987ea/image.png)
+![image.png](../../images/devops.png)
 
 ### **Introduction to Your Instructor**
 
@@ -26,7 +26,7 @@
 
 ### **How to Learn Best from This Course**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/db59a581-ae61-47df-aac0-73108056a850/image.png)
+![image.png](../../images/raise-hand.png)
 
 ### **1. Engage with the System**
 
@@ -55,7 +55,7 @@
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/17f247a9-2a76-4d6c-b402-13a24106adb0/image.png)
+![image.png](/images/what-is-devops.png)
 
 - **Definition**: A combination of "Development" and "Operations," DevOps is a cultural and professional movement that emphasizes collaboration between software developers and IT operations.
 - **Purpose**: To improve **speed**, **quality**, and **reliability** in delivering software by breaking down traditional barriers between teams.
@@ -77,7 +77,7 @@
 
 ### **What Was Before DevOps?**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/a5842f0f-6d5e-45f4-be52-385460dda32f/image.png)
+![image.png](../../images/waterfall2.png)
 
 - **Traditional Model: Development and Operations Silos**
     - **Separate Teams**: Developers and operations teams worked in isolation with little communication.
@@ -95,7 +95,7 @@
     - Operations teams were left to manage and maintain code they hadn’t built, often under high pressure to keep things running smoothly.
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/1b7d6bd4-976b-4a41-8f12-ba0785fe61d6/image.png)
+![image.png](../../images/meme.png)
 
 ---
 
@@ -220,7 +220,7 @@
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/833d4875-7a41-4bb0-9263-fa5bf2980939/image.png)
+![image.png](../../images/obj.png)
 
 ### **Course Objectives**
 
@@ -261,4 +261,4 @@
 
 ## Questions ?
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d9f99b4-0243-4f6a-ad70-ee35c09a9f83/d594bbc3-7748-4a06-b6bc-8c27bd0b6f88/image.png)
+![image.png](../../images/questions.png)
