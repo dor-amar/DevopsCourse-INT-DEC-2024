@@ -1,67 +1,117 @@
-### **Guide: How to Submit Your Answers via a Pull Request**
+## **Guide: How to Answer a Quiz and Submit it on GitHub**
 
-### Step 1: Clone the Repository
+### **Step 1: Navigate to the Repository**
 
-1. Go to the repository on GitHub.
-2. Click the green **Code** button and copy the HTTPS URL.
-3. Clone the repository to your local machine using the terminal:
+1. Open the repository link shared by your instructor.
+2. Find the quiz file (e.g., `quizzes/linux-quiz-1.md`) in the repository.
+
+---
+
+### **Step 2: Create a Branch**
+
+1. Open a terminal or Git Bash on your computer.
+2. Clone the repository to your local machine by copying the repository's HTTPS URL:
     
     ```bash
     git clone <repository-url>
+    
     ```
     
-
-### Step 2: Create a New Branch
-
-1. Navigate to the repository folder:
+    Replace `<repository-url>` with the repository link (e.g., `https://github.com/your-repo-name.git`).
+    
+3. Navigate to the repository directory:
     
     ```bash
     cd <repository-folder>
+    
     ```
     
-2. Create a new branch for your quiz answers:
+4. Create a new branch to work on your quiz answers:
     
     ```bash
-    git checkout -b quiz-answers
+    git checkout -b <branch-name>
+    
     ```
     
+    Replace `<branch-name>` with a descriptive name, such as `quiz-answers`.
+    
+    **Screenshot Example:**
+    
 
-### Step 3: Edit the Quiz File
+---
 
-1. Open the repository in a code editor (e.g., VS Code).
-2. Navigate to the quiz file (e.g., `quizzes/linux-quiz.md`).
-3. Mark your answers by replacing `[ ]` with `[x]`.
+### **Step 3: Edit the Quiz File**
 
-### Step 4: Commit Your Changes
+1. Open the repository folder in a code editor (e.g., VS Code).
+2. Navigate to the quiz file (e.g., `quizzes/linux-quiz-1.md`).
+3. Replace `[ ]` with `[x]` to mark your answers.
+    
+    **Example:**
+    
+    ```markdown
+    markdown
+    - [x] a) `mkdir`
+    - [ ] b) `cd`
+    
+    ```
+    
+    **Screenshot Example:**
+    
 
-1. Save the file and stage your changes:
+---
+
+### **Step 4: Commit Your Changes**
+
+1. Save the file.
+2. Stage your changes:
     
     ```bash
-    git add quizzes/linux-quiz.md
+    git add quizzes/linux-quiz-1.md
+    
     ```
     
-2. Commit your changes with a meaningful message:
+3. Commit the changes with a meaningful message:
     
     ```bash
-    git commit -m "Submit answers for Linux Basics Quiz"
+    git commit -m "Completed Linux Quiz 1"
     
     ```
     
+    **Screenshot Example:**
+    
 
-### Step 5: Push Your Branch to GitHub
+---
+
+### **Step 5: Push Your Branch**
 
 1. Push your branch to GitHub:
     
     ```bash
-    git push origin quiz-answers
+    git push --set-upstream origin <branch-name>
+    
     ```
     
+    Replace `<branch-name>` with the name of the branch you created earlier.
+    
+    **Screenshot Example:**
+    
 
-### Step 6: Create a Pull Request
+---
+
+### **Step 6: Create a Pull Request**
 
 1. Go to the repository on GitHub.
-2. You’ll see a banner offering to create a Pull Request for your new branch. Click **Compare & Pull Request**.
+2. You’ll see a banner at the top offering to create a Pull Request for your branch. Click **"Compare & pull request"**.
+    
+    **Screenshot Example:**
+    
 3. Fill in the Pull Request details:
-    - **Title:** "[Quiz Submission] Linux Basics"
-    - **Description:** Include any notes or questions about your submission.
-4. Click **Create Pull Request**.
+    - **Title:** "[Quiz Submission] Linux Quiz 1"
+    - **Description:** Include any notes or questions for the instructor.
+4. Click **"Create pull request"**.
+
+---
+
+### **Step 7: Wait for Feedback**
+
+Once your Pull Request is submitted, your instructor will review it and provide feedback directly on GitHub. If changes are requested, update your quiz file locally, commit the changes, and push them to the same branch.
