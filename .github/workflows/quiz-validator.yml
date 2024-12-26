@@ -1,0 +1,23 @@
+name: Validate Quiz Submission
+
+on:
+  pull_request:
+    paths:
+      - "quizzes/*.md"
+
+jobs:
+  validate-quiz:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Python (if needed)
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+
+    - name: Validate Quiz Answers
+      run: |
+        python3 .github/scripts/validate_quiz.py
