@@ -30,7 +30,6 @@ with open(quiz_file, "r") as f:
 submitted_answers = {}
 question_number = 0
 for line in quiz_content:
-    print(f"Processing line: {line.strip()}")  # Debugging line
     # Match lines with checkboxes and answers (e.g., "- [X] a) `mkdir`")
     match = re.match(r"^\s*-\s*\[\s*[xX]\s*\]\s*(\w)\)", line.strip())
     if match:
