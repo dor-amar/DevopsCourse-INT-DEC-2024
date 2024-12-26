@@ -28,12 +28,13 @@ with open(quiz_file, "r") as f:
 
 # Extract submitted answers from the Markdown file
 submitted_answers = {}
+question_number = 0
 for line in quiz_content:
-    match = re.match(r"- \[(x|X)\] (\w)\) `.*`", line.strip())
+    # Match lines with checkboxes and answers (e.g., "- [X] a) `mkdir`")
+    match = re.match(r"- \[x\] (\w)\)", line.strip(), re.IGNORECASE)
     if match:
-        answer_marked = match.group(2)
-        question_number = len(submitted_answers) + 1
-        submitted_answers[str(question_number)] = answer_marked.lower()
+        question_number += 1
+        submitted_answers[str(question_number)] = match.group(1).lower()
 
 # Validate answers
 correct_count = 0
