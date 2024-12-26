@@ -3,8 +3,7 @@ name: Validate Quiz Submission
 on:
   pull_request:
     paths:
-      - "quizzes/*.md"
-
+      - "quizzes/*"
 jobs:
   validate-quiz:
     runs-on: ubuntu-latest
