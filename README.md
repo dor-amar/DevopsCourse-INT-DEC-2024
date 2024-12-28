@@ -33,7 +33,7 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 20  | Linux           | [Environment Variabels](modules/module-2-linux/env.md)                                                                  |          |      |     |   |
 | 21  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-3.md)      |     |   |
 | 22  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-3.md)      |     |   |
-| 23  | Linux           |                                                                                  |  |   |   [Mini project 🎉](modules/module-2-linux/soft-links-hard-links.md)  |   |
+| 23  | Linux           |                                                                                  |  |   |   [Mini project 🎉](modules/module-2-linux/projects/mini-project-1.md)  |   |
 
 
 ## How to Use This Repository
