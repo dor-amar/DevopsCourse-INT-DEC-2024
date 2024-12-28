@@ -27,17 +27,28 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 14  | Linux           | [Wildcards](modules/module-2-linux/wildcards.md)                                 |            |            |                   |   |
 | 15  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-2.md)      |     |   |
 | 16  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-2.md)      |     |   |
+| 17  | Linux           | [Man page](modules/module-2-linux/man-page.md)                                                                               |            |      |     |   |
+| 18  | Linux           | [Command Line Syntax](modules/module-2-linux/cli-syntax.md)                                                                  |          |      |     |   |
+| 19  | Linux           | [ACL](modules/module-2-linux/acl.md)                                                                  |          |      |     |   |
+| 20  | Linux           | [Environment Variabels](modules/module-2-linux/env.md)                                                                  |          |      |     |   |
+| 21  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-3.md)      |     |   |
+| 22  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-3.md)      |     |   |
+| 23  | Linux           |                                                                                  |  |   |   [Mini project 🎉](modules/module-2-linux/soft-links-hard-links.md)  |   |
+
 
 ## How to Use This Repository
 
-1. **Start Here**: Begin with the [Syllabus](docs/syllabus.md) to understand the course outline.
-2. **Modules**: Navigate to the relevant module in the `modules/` folder to access lectures and labs.
+1. **Start Here**: Begin with the [Syllabus]() to understand the course outline.
+2. **Modules**: Navigate to the relevant module in the `modules/` folder to access lectures.
 3. **Projects**: Refer to the `projects/` folder for hands-on, real-world project descriptions.
 4. **Exercises**: Complete the labs in each module to reinforce your learning.
 
 ---
 ### This guide will help you submit your answers for quizes 
 [How to submit quizes ?](modules/module-1-intro/submitting-pr.md) 
+
+ ### Using an AWS account on this course
+[AWS in this course](modules/module-1-intro/aws-account.md) 
 
 ## Additional Content will be uploaded to our system
 
