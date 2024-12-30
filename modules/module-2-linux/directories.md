@@ -1,6 +1,6 @@
 # Directories 
 
-<img src="../../images/history.png" width="700">
+<img src="../../images/dir.png" width="700">
 
 ### **Linux Directories: Comprehensive Guide**
 
