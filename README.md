@@ -18,9 +18,9 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 5   | Virtualization  |                                                                                  |            | [Copy and Paste functions](labs/copy-paste.md) |   |   |
 | 6   | Linux           | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                       |            |            |                   |   |
 | 7   | Linux           | [Linux history](modules/module-2-linux/history.md)                               |            |            |                   |   |
-| 8   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            |            |                   |   |
+| 8   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            | [Hands-On Lab 📝](labs/basic-linux-commands.md)  |   |   |
 | 9   | Linux           | [Directories](modules/module-2-linux/directories.md)                             |            |            |                   |   |
-| 10   | Linux           | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)          |            |            |                   |   |
+| 10  | Linux           | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)          |            |            |                   |   |
 | 11  | Linux           | [The sudo command](modules/module-2-linux/sudo.md)                               |            |            |                   |   |
 | 12  | Linux           |                                                                                  |            | [Hands-On Lab 📝](labs/linux-1.md) |           |   |
 | 13  | Linux           |                                                                                  |            | [Quiz Time! 📝](quizzes/linux-quiz-1.md) |     |   |
