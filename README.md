@@ -42,6 +42,19 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 29  | Linux - File Managment  |  [Tee](modules/module-2-linux/tee.md)        |  |   |    |   |
 | 30  | Linux - File Managment         |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-4.md)      |     |   |
 | 31  | Linux - File Managment         |                                                                        |            |  [Quiz Time! 📝](quizzes/linux-quiz-4.md)      |     |   |
+| 32  | Linux          | [File Redirections](modules/module-2-linux/file-redirections.md)                 |          |      |     |   |
+| 33  | Linux          | [stdout](modules/module-2-linux/stdout.md)                 |          |      |     |   |
+| 34  | Linux          | [stdin](modules/module-2-linux/stdin.md)                 |          |      |     |   |
+| 35  | Linux          | [stderr](modules/module-2-linux/stderr.md)                 |          |      |     |   |
+| 36  | Linux          | [/dev/null](modules/module-2-linux/dev-null.md)                 |          |      |     |   |
+| 37  | Linux          |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-5.md)      |     |   |
+| 38  | Linux          |                                                                        |            |  [Quiz Time! 📝](quizzes/linux-quiz-5.md)      |     |   |
+| 39  | Linux - Text Proccessing         | [Intro to text proccessing](modules/module-2-linux/intro-text-proccessing.md)                 |          |      |     |   |
+| 40  | Linux - Text Proccessing         | [Basic text proccessing](modules/module-2-linux/basic-text-proccessing.md)                 |          |      |     |   |
+| 41  | Linux - Text Proccessing         | [Text Searching and Filtering](modules/module-2-linux/text-filtering.md)                 |          |      |     |   |
+| 42  | Linux - Text Proccessing         | [Text Transformation](modules/module-2-linux/text-transformation.md)                 |          |      |     |   |
+
+
 
 ## How to Use This Repository
 
