@@ -11,15 +11,15 @@ This course is designed to provide students with a deep understanding of DevOps 
 
 | #   | Topic           | Tutorial                                                                              | Resources          | Lab                              | Project                        | Status   |
 |-----|-----------------|---------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------------|----------|
-| 1   | Getting Started | [Welcome to the DevOps Course!](modules/module-1-intro/getting-started.md)       |            |            |                   |   |
-| 2   | Intro           | [What is DevOps?](modules/module-1-intro/lesson-what-is-devops.md)               |            |            |                   |   |
-| 3   | Virtualization  | [Virtualization](modules/module-1-intro/virtualisation.md)                       |            |            |                   |   |
-| 4   | Virtualization  |                                                                                  |            | [Creating our first VM](labs/creating-our-first-vm.md) |   |   |
-| 5   | Virtualization  |                                                                                  |            | [Copy and Paste functions](labs/copy-paste.md) |   |   |
-| 6   | IDE  |            [IDE Setup](modules/module-1-intro/ide.md)                                                                      |            |  |   |   |
-| 7   | Linux           | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                       |            |            |                   |   |
-| 8   | Linux           | [Linux history](modules/module-2-linux/history.md)                               |            |            |                   |   |
-| 9   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            | [Hands-On Lab 📝](labs/basic-linux-commands.md)  |   |   |
+| 1   | Getting Started | [Welcome to the DevOps Course!](modules/module-1-intro/getting-started.md)       |            |            |                   | ✅ | 
+| 2   | Intro           | [What is DevOps?](modules/module-1-intro/lesson-what-is-devops.md)               |            |            |                   | ✅  | 
+| 3   | Virtualization  | [Virtualization](modules/module-1-intro/virtualisation.md)                       |            |            |                   | ✅  |
+| 4   | Virtualization  |                                                                                  |            | [Creating our first VM](labs/creating-our-first-vm.md) |   | ✅  |
+| 5   | Virtualization  |                                                                                  |            | [Copy and Paste functions](labs/copy-paste.md) |   | ✅  |
+| 6   | IDE  |            [IDE Setup](modules/module-1-intro/ide.md)                                                                      |            |  |   | ✅  |
+| 7   | Linux           | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                       |            |            |                   | ✅  |
+| 8   | Linux           | [Linux history](modules/module-2-linux/history.md)                               |            |            |                   | ✅  |
+| 9   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            | [Hands-On Lab 📝](labs/basic-linux-commands.md)  |   | ✅  |
 | 10  | Linux           | [Directories](modules/module-2-linux/directories.md)                             |            |            |                   |   |
 | 11  | Linux           | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)          |            |            |                   |   |
 | 12  | Linux           | [The sudo command](modules/module-2-linux/sudo.md)                               |            |            |                   |   |
