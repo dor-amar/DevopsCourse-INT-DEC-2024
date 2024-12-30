@@ -6,6 +6,22 @@ Welcome to the GitHub repository for the **INT DevOps Course**! 🎉
 This course is designed to provide students with a deep understanding of DevOps principles, tools, and techniques. Whether you're a beginner or someone looking to enhance your skills, this course covers everything from Linux fundamentals to advanced CI/CD and cloud technologies.
 
 ---
+## How to Use This Repository
+
+1. **Start Here**: Begin with the [Syllabus]() to understand the course outline.
+2. **Modules**: Navigate to the relevant module in the `modules/` folder to access lectures.
+3. **Projects**: Refer to the `projects/` folder for hands-on in any module, real-world project descriptions.
+4. **Exercises**: Complete the labs in each module to reinforce your learning.
+
+---
+### This guide will help you submit your answers for quizes 
+[How to submit quizes ?](modules/module-1-intro/submitting-pr.md) 
+
+ ### Using an AWS account on this course
+[AWS in this course](modules/module-1-intro/aws-account.md) 
+
+Happy Learning! 🚀
+
 
 ## Course Structure
 
@@ -56,20 +72,4 @@ This course is designed to provide students with a deep understanding of DevOps 
 
 
 
-## How to Use This Repository
 
-1. **Start Here**: Begin with the [Syllabus]() to understand the course outline.
-2. **Modules**: Navigate to the relevant module in the `modules/` folder to access lectures.
-3. **Projects**: Refer to the `projects/` folder for hands-on in any module, real-world project descriptions.
-4. **Exercises**: Complete the labs in each module to reinforce your learning.
-
----
-### This guide will help you submit your answers for quizes 
-[How to submit quizes ?](modules/module-1-intro/submitting-pr.md) 
-
- ### Using an AWS account on this course
-[AWS in this course](modules/module-1-intro/aws-account.md) 
-
-## Additional Content will be uploaded to our system
-
-Happy Learning! 🚀
