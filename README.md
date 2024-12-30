@@ -20,7 +20,7 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 7   | Linux           | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                       |            |            |                   |   |
 | 8   | Linux           | [Linux history](modules/module-2-linux/history.md)                               |            |            |                   |   |
 | 9   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            | [Hands-On Lab 📝](labs/basic-linux-commands.md)  |   |   |
-| 10   | Linux           | [Directories](modules/module-2-linux/directories.md)                             |            |            |                   |   |
+| 10  | Linux           | [Directories](modules/module-2-linux/directories.md)                             |            |            |                   |   |
 | 11  | Linux           | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)          |            |            |                   |   |
 | 12  | Linux           | [The sudo command](modules/module-2-linux/sudo.md)                               |            |            |                   |   |
 | 13  | Linux           |                                                                                  |            | [Hands-On Lab 📝](labs/linux-1.md) |           |   |
@@ -35,8 +35,13 @@ This course is designed to provide students with a deep understanding of DevOps 
 | 22  | Linux           | [Environment Variabels](modules/module-2-linux/env.md)                                                                  |          |      |     |   |
 | 23  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-3.md)      |     |   |
 | 24  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-3.md)      |     |   |
-| 25  | Linux           |                                                                                  |  |   |   [Mini project 🎉](modules/module-2-linux/projects/mini-project-1.md)  |   |
-
+| 25  | Linux - File Managment  |  [Text editor](modules/module-2-linux/the-text-editor.md)        |  | [Edit your text editor](https://www.youtube.com/watch?v=grRwgvCMR4s&ab_channel=It%27sFOSS-LinuxPortal)  |    |   |
+| 26  | Linux - File Managment  |  [Reading from files](modules/module-2-linux/read-from-files.md)        |  |   |    |   |
+| 27  | Linux - File Managment  |  [Adding text to a file](modules/module-2-linux/adding-text.md)        |  |   |    |   |
+| 28  | Linux - File Managment  |  [Pipeline](modules/module-2-linux/pipeline.md)        |  |   |    |   |
+| 29  | Linux - File Managment  |  [Tee](modules/module-2-linux/tee.md)        |  |   |    |   |
+| 30  | Linux - File Managment         |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-4.md)      |     |   |
+| 31  | Linux - File Managment         |                                                                        |            |  [Quiz Time! 📝](quizzes/linux-quiz-4.md)      |     |   |
 
 ## How to Use This Repository
 
