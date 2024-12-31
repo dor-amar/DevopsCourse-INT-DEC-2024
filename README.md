@@ -69,7 +69,10 @@ Happy Learning! 🚀
 | 40  | Linux - Text Proccessing         | [Basic text proccessing](modules/module-2-linux/basic-text-proccessing.md)                 |          |      |     |   |
 | 41  | Linux - Text Proccessing         | [Text Searching and Filtering](modules/module-2-linux/text-filtering.md)                 |          |      |     |   |
 | 42  | Linux - Text Proccessing         | [Text Transformation](modules/module-2-linux/text-transformation.md)                 |          |      |     |   |
-
+| 43  | Linux - Text Proccessing         | [Regex](modules/module-2-linux/regex.md)                 |          |      |     |   |
+| 44  | Linux - Text Proccessing         | [Large Files](modules/module-2-linux/large-files.md)                 |          |      |     |   |
+| 45  | Linux          |                                                   |            |  [Hands-On Lab 📝](labs/linux-6.md)      |     |   |
+| 46  | Linux          |                                          |            |  [Quiz Time! 📝](quizzes/linux-quiz-6.md)      |     |   |
 
 
 
