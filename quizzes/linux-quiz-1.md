@@ -6,7 +6,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 **1. Which command is used to create a directory in Linux?**
 
-- [ ]  a) `mkdir`
+- [X]  a) `mkdir`
 - [ ]  b) `cd`
 - [ ]  c) `touch`
 - [ ]  d) `rm`
@@ -15,7 +15,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 **2. How do you navigate to the parent directory?**
 
-- [ ]  a) `cd ..`
+- [X]  a) `cd ..`
 - [ ]  b) `cd /`
 - [ ]  c) `cd parent`
 - [ ]  d) `cd -`
@@ -25,7 +25,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 **3. Which command is used to display the contents of a file?**
 
 - [ ]  a) `echo`
-- [ ]  b) `cat`
+- [X]  b) `cat`
 - [ ]  c) `ls`
 - [ ]  d) `pwd`
 
@@ -35,7 +35,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 - [ ]  a) Shows the contents of a file.
 - [ ]  b) Creates a directory structure.
-- [ ]  c) Displays the directory structure in a tree-like format.
+- [X]  c) Displays the directory structure in a tree-like format.
 - [ ]  d) Deletes a directory.
 
 ---
@@ -44,14 +44,14 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 - [ ]  a) It stores user-created files.
 - [ ]  b) It provides information about system processes and resources.
-- [ ]  c) It contains configuration files for the system.
+- [X]  c) It contains configuration files for the system.
 - [ ]  d) It is used to store temporary files.
 
 ---
 
 **6. How do you rename a file in Linux?**
 
-- [ ]  a) `mv old_name new_name`
+- [X]  a) `mv old_name new_name`
 - [ ]  b) `cp old_name new_name`
 - [ ]  c) `touch old_name new_name`
 - [ ]  d) `rename old_name new_name`
@@ -62,7 +62,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 - [ ]  a) The CPU of the system.
 - [ ]  b) A file storing system logs.
-- [ ]  c) A terminal device for user interaction.
+- [X]  c) A terminal device for user interaction.
 - [ ]  d) The home directory.
 
 ---
@@ -70,7 +70,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 **8. Which command is used to remove a file?**
 
 - [ ]  a) `rmdir`
-- [ ]  b) `rm`
+- [X]  b) `rm`
 - [ ]  c) `delete`
 - [ ]  d) `erase`
 
@@ -79,7 +79,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 **9. What is a named pipe in Linux?**
 
 - [ ]  a) A directory inside `/proc`.
-- [ ]  b) A file used to communicate between processes.
+- [X]  b) A file used to communicate between processes.
 - [ ]  c) A special file used to store user data.
 - [ ]  d) A backup file created by the system.
 
@@ -88,10 +88,10 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 **10. How can you view CPU information on a Linux system?**
 
 - [ ]  a) `cat /dev/tty`
-- [ ]  b) `cat /proc/cpuinfo`
+- [X]  b) `cat /proc/cpuinfo`
 - [ ]  c) `ls /cpu`
 - [ ]  d) `echo "cpuinfo"`
 
 
-### This guide will help you submit your answers for quizes 
+## This guide will help you submit your answers for quizes 
 [How to submit quizes ?](../modules/module-1-intro/submitting-pr.md) 
