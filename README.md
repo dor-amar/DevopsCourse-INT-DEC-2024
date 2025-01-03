@@ -1,78 +1,51 @@
-# INT DevOps Course
-
-Welcome to the GitHub repository for the **INT DevOps Course**! 🎉
-
-## About This Course
-This course is designed to provide students with a deep understanding of DevOps principles, tools, and techniques. Whether you're a beginner or someone looking to enhance your skills, this course covers everything from Linux fundamentals to advanced CI/CD and cloud technologies.
-
----
-## How to Use This Repository
-
-1. **Start Here**: Begin with the [Syllabus]() to understand the course outline.
-2. **Modules**: Navigate to the relevant module in the `modules/` folder to access lectures.
-3. **Projects**: Refer to the `projects/` folder for hands-on in any module, real-world project descriptions.
-4. **Exercises**: Complete the labs in each module to reinforce your learning.
-
----
-### This guide will help you submit your answers for quizes 
-[How to submit quizes ?](modules/module-1-intro/submitting-pr.md) 
-
- ### Using an AWS account on this course
-[AWS in this course](modules/module-1-intro/aws-account.md) 
-
-Happy Learning! 🚀
-
-
 ## Course Structure
 
-| #   | Topic           | Tutorial                                                                              | Resources          | Lab                              | Project                        | Status   |
-|-----|-----------------|---------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------------|----------|
-| 1   | Getting Started | [Welcome to the DevOps Course!](modules/module-1-intro/getting-started.md)       |            |            |                   | ✅ | 
-| 2   | Intro           | [What is DevOps?](modules/module-1-intro/lesson-what-is-devops.md)               |            |            |                   | ✅  | 
-| 3   | Virtualization  | [Virtualization](modules/module-1-intro/virtualisation.md)                       |            |            |                   | ✅  |
-| 4   | Virtualization  |                                                                                  |            | [Creating our first VM](labs/creating-our-first-vm.md) |   | ✅  |
-| 5   | Virtualization  |                                                                                  |            | [Copy and Paste functions](labs/copy-paste.md) |   | ✅  |
-| 6   | IDE  |            [IDE Setup](modules/module-1-intro/ide.md)                                                                      |            |  |   | ✅  |
-| 7   | Linux           | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                       |            |            |                   | ✅  |
-| 8   | Linux           | [Linux history](modules/module-2-linux/history.md)                               |            |            |                   | ✅  |
-| 9   | Linux           | [Basic Commands](modules/module-2-linux/basic-commands.md)                       |            | [Hands-On Lab 📝](labs/basic-linux-commands.md)  |   | ✅  |
-| 10  | Linux           | [Directories](modules/module-2-linux/directories.md)                             |            |            |                   |   |
-| 11  | Linux           | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)          |            |            |                   |   |
-| 12  | Linux           | [The sudo command](modules/module-2-linux/sudo.md)                               |            |            |                   |   |
-| 13  | Linux           |                                                                                  |            | [Hands-On Lab 📝](labs/linux-1.md) |           |   |
-| 14  | Linux           |                                                                                  |            | [Quiz Time! 📝](quizzes/linux-quiz-1.md) |     |   |
-| 15  | Linux           | [Soft Links & Hard Links](modules/module-2-linux/soft-links-hard-links.md)       |            |            |                   |   |
-| 16  | Linux           | [Wildcards](modules/module-2-linux/wildcards.md)                                 |            |            |                   |   |
-| 17  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-2.md)      |     |   |
-| 18  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-2.md)      |     |   |
-| 19  | Linux           | [Man page](modules/module-2-linux/man-page.md)                                                                               |            |      |     |   |
-| 20  | Linux           | [Command Line Syntax](modules/module-2-linux/cli-syntax.md)                                                                  |          |      |     |   |
-| 21  | Linux           | [ACL](modules/module-2-linux/acl.md)                                                                  |          |      |     |   |
-| 22  | Linux           | [Environment Variabels](modules/module-2-linux/env.md)                                                                  |          |      |     |   |
-| 23  | Linux           |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-3.md)      |     |   |
-| 24  | Linux           |                                                                                  |            |  [Quiz Time! 📝](quizzes/linux-quiz-3.md)      |     |   |
-| 25  | Linux - File Managment  |  [Text editor](modules/module-2-linux/the-text-editor.md)        |  | [Edit your text editor](https://www.youtube.com/watch?v=grRwgvCMR4s&ab_channel=It%27sFOSS-LinuxPortal)  |    |   |
-| 26  | Linux - File Managment  |  [Reading from files](modules/module-2-linux/read-from-files.md)        |  |   |    |   |
-| 27  | Linux - File Managment  |  [Adding text to a file](modules/module-2-linux/adding-text.md)        |  |   |    |   |
-| 28  | Linux - File Managment  |  [Pipeline](modules/module-2-linux/pipeline.md)        |  |   |    |   |
-| 29  | Linux - File Managment  |  [Tee](modules/module-2-linux/tee.md)        |  |   |    |   |
-| 30  | Linux - File Managment         |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-4.md)      |     |   |
-| 31  | Linux - File Managment         |                                                                        |            |  [Quiz Time! 📝](quizzes/linux-quiz-4.md)      |     |   |
-| 32  | Linux          | [File Redirections](modules/module-2-linux/file-redirections.md)                 |          |      |     |   |
-| 33  | Linux          | [stdout](modules/module-2-linux/stdout.md)                 |          |      |     |   |
-| 34  | Linux          | [stdin](modules/module-2-linux/stdin.md)                 |          |      |     |   |
-| 35  | Linux          | [stderr](modules/module-2-linux/stderr.md)                 |          |      |     |   |
-| 36  | Linux          | [/dev/null](modules/module-2-linux/dev-null.md)                 |          |      |     |   |
-| 37  | Linux          |                                                                                  |            |  [Hands-On Lab 📝](labs/linux-5.md)      |     |   |
-| 38  | Linux          |                                                                        |            |  [Quiz Time! 📝](quizzes/linux-quiz-5.md)      |     |   |
-| 39  | Linux - Text Proccessing         | [Intro to text proccessing](modules/module-2-linux/intro-text-proccessing.md)                 |          |      |     |   |
-| 40  | Linux - Text Proccessing         | [Basic text proccessing](modules/module-2-linux/basic-text-proccessing.md)                 |          |      |     |   |
-| 41  | Linux - Text Proccessing         | [Text Searching and Filtering](modules/module-2-linux/text-filtering.md)                 |          |      |     |   |
-| 42  | Linux - Text Proccessing         | [Text Transformation](modules/module-2-linux/text-transformation.md)                 |          |      |     |   |
-| 43  | Linux - Text Proccessing         | [Regex](modules/module-2-linux/regex.md)                 |          |      |     |   |
-| 44  | Linux - Text Proccessing         | [Large Files](modules/module-2-linux/large-files.md)                 |          |      |     |   |
-| 45  | Linux          |                                                   |            |  [Hands-On Lab 📝](labs/linux-6.md)      |     |   |
-| 46  | Linux          |                                          |            |  [Quiz Time! 📝](quizzes/linux-quiz-6.md)      |     |   |
-
-
-
+| #   | Topic                         | Tutorial                                                                             | Resources          | Lab                              | Project                        | Status   |
+|-----|-------------------------------|-------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------------|----------|
+| 1   | Getting Started               | [Welcome to the DevOps Course!](modules/module-1-intro/getting-started.md)          |                    |                                  |                                | ✅        |
+| 2   | Intro                         | [What is DevOps?](modules/module-1-intro/lesson-what-is-devops.md)                  |                    |                                  |                                | ✅        |
+| 3   | Virtualization                | [Virtualization](modules/module-1-intro/virtualisation.md)                          |                    |                                  |                                | ✅        |
+| 4   | Virtualization                |                                                                                     |                    | [Creating our first VM](labs/creating-our-first-vm.md) |   | ✅        |
+| 5   | Virtualization                |                                                                                     |                    | [Copy and Paste functions](labs/copy-paste.md) |   | ✅        |
+| 6   | IDE                           | [IDE Setup](modules/module-1-intro/ide.md)                                          |                    |                                  |                                | ✅        |
+| 7   | Linux                         | [Intro to Linux](modules/module-2-linux/intro-to-linux.md)                          |                    |                                  |                                | ✅        |
+| 8   | Linux                         | [Linux history](modules/module-2-linux/history.md)                                  |                    |                                  |                                | ✅        |
+| 9   | Linux                         | [Basic Commands](modules/module-2-linux/basic-commands.md)                          |                    | [Hands-On Lab 📝](labs/basic-linux-commands.md) |   | ✅        |
+| 10  | Linux                         | [Directories](modules/module-2-linux/directories.md)                                |                    |                                  |                                |          |
+| 11  | Linux                         | [Everything is a File!](modules/module-2-linux/everything-is-a-file.md)             |                    |                                  |                                |          |
+| 12  | Linux                         | [The sudo command](modules/module-2-linux/sudo.md)                                  |                    |                                  |                                |          |
+| 13  | Linux                         | [Package management](modules/module-2-linux/package-managment.md)                  |                    |                                  |                                |          |
+| 14  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-1.md) |          |          |
+| 15  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-1.md) |      |          |
+| 16  | Linux                         | [Soft Links & Hard Links](modules/module-2-linux/soft-links-hard-links.md)          |                    |                                  |                                |          |
+| 17  | Linux                         | [Wildcards](modules/module-2-linux/wildcards.md)                                    |                    |                                  |                                |          |
+| 18  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-2.md) |      |          |
+| 19  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-2.md) |      |          |
+| 20  | Linux                         | [Man page](modules/module-2-linux/man-page.md)                                      |                    |                                  |                                |          |
+| 21  | Linux                         | [Command Line Syntax](modules/module-2-linux/cli-syntax.md)                         |                    |                                  |                                |          |
+| 22  | Linux                         | [ACL](modules/module-2-linux/acl.md)                                               |                    |                                  |                                |          |
+| 23  | Linux                         | [Environment Variables](modules/module-2-linux/env.md)                              |                    |                                  |                                |          |
+| 24  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-3.md) |      |          |
+| 25  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-3.md) |      |          |
+| 26  | Linux - File Management       | [Text editor](modules/module-2-linux/the-text-editor.md)                            |                    | [Edit your text editor](https://www.youtube.com/watch?v=grRwgvCMR4s&ab_channel=It%27sFOSS-LinuxPortal) |   |          |
+| 27  | Linux - File Management       | [Reading from files](modules/module-2-linux/read-from-files.md)                     |                    |                                  |                                |          |
+| 28  | Linux - File Management       | [Adding text to a file](modules/module-2-linux/adding-text.md)                      |                    |                                  |                                |          |
+| 29  | Linux - File Management       | [Pipeline](modules/module-2-linux/pipeline.md)                                      |                    |                                  |                                |          |
+| 30  | Linux - File Management       | [Tee](modules/module-2-linux/tee.md)                                               |                    |                                  |                                |          |
+| 31  | Linux - File Management       |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-4.md) |      |          |
+| 32  | Linux - File Management       |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-4.md) |      |          |
+| 33  | Linux                         | [File Redirections](modules/module-2-linux/file-redirections.md)                    |                    |                                  |                                |          |
+| 34  | Linux                         | [stdout](modules/module-2-linux/stdout.md)                                          |                    |                                  |                                |          |
+| 35  | Linux                         | [stdin](modules/module-2-linux/stdin.md)                                            |                    |                                  |                                |          |
+| 36  | Linux                         | [stderr](modules/module-2-linux/stderr.md)                                          |                    |                                  |                                |          |
+| 37  | Linux                         | [/dev/null](modules/module-2-linux/dev-null.md)                                     |                    |                                  |                                |          |
+| 38  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-5.md) |      |          |
+| 39  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-5.md) |      |          |
+| 40  | Linux - Text Processing       | [Intro to text processing](modules/module-2-linux/intro-text-proccessing.md)        |                    |                                  |                                |          |
+| 41  | Linux - Text Processing       | [Basic text processing](modules/module-2-linux/basic-text-proccessing.md)           |                    |                                  |                                |          |
+| 42  | Linux - Text Processing       | [Text Searching and Filtering](modules/module-2-linux/text-filtering.md)           |                    |                                  |                                |          |
+| 43  | Linux - Text Processing       | [Text Transformation](modules/module-2-linux/text-transformation.md)               |                    |                                  |                                |          |
+| 44  | Linux - Text Processing       | [Regex](modules/module-2-linux/regex.md)                                           |                    |                                  |                                |          |
+| 45  | Linux - Text Processing       | [Large Files](modules/module-2-linux/large-files.md)                                |                    |                                  |                                |          |
+| 46  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-6.md) |      |          |
+| 47  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-6.md) |      |          |
