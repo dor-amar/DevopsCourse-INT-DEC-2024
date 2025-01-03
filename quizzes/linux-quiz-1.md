@@ -87,7 +87,7 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 
 **10. How can you view CPU information on a Linux system?**
 
-- [ ]  a) `cat /dev/tty`
+- [X]  a) `cat /dev/tty`
 - [ ]  b) `cat /proc/cpuinfo`
 - [ ]  c) `ls /cpu`
 - [ ]  d) `echo "cpuinfo"`
