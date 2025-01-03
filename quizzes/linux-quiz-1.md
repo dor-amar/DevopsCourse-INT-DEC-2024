@@ -93,5 +93,5 @@ Choose the correct answer for each question. Replace `[ ]` with `[x]` to select 
 - [ ]  d) `echo "cpuinfo"`
 
 
-### This guide will help you submit your answers for quizes 
+## This guide will help you submit your answers for quizes 
 [How to submit quizes ?](../modules/module-1-intro/submitting-pr.md) 
