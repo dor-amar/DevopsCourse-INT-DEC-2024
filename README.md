@@ -23,6 +23,7 @@
 | 19  | Linux                         |                                                                                     |                    | [Quiz Time! 📝](quizzes/linux-quiz-2.md) |      |          |
 | 20  | Linux                         | [Man page](modules/module-2-linux/man-page.md)                                      |                    |                                  |                                |          |
 | 21  | Linux                         | [Command Line Syntax](modules/module-2-linux/cli-syntax.md)                         |                    |                                  |                                |          |
+| 21  | Linux                         | [File Permmisions](modules/module-2-linux/file-permmisions.md)                         |                    |                                  |                                |          |
 | 22  | Linux                         | [ACL](modules/module-2-linux/acl.md)                                               |                    |                                  |                                |          |
 | 23  | Linux                         | [Environment Variables](modules/module-2-linux/env.md)                              |                    |                                  |                                |          |
 | 24  | Linux                         |                                                                                     |                    | [Hands-On Lab 📝](labs/linux-3.md) |      |          |
