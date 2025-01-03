@@ -103,7 +103,105 @@ Environment variables are dynamic values stored within the operating system, use
 
 ---
 
-### **5. Environment vs Shell Variables**
+### **5. Adding a Directory to PATH**
+
+Sometimes, you install a program in a custom directory (e.g., `/home/user/myprograms`). To use it without typing the full path, you can add the directory to the PATH.
+
+1. Temporarily:
+    
+    ```bash
+    export PATH=$PATH:/home/user/myprograms
+    
+    ```
+    
+    - This works until you close the terminal.
+2. Permanently:
+    - Edit your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`):
+        
+        ```bash
+        nano ~/.bashrc
+        
+        ```
+        
+    - Add this line:
+        
+        ```bash
+        export PATH=$PATH:/home/user/myprograms
+        
+        ```
+        
+    - Save and reload:
+        
+        ```bash
+        source ~/.bashrc
+        
+        ```
+        
+
+---
+
+### **How PATH Helps**
+
+- **Convenience:** Run commands from anywhere without typing their full paths.
+- **Efficiency:** Saves time by searching predefined directories.
+- **Customizability:** Add your own scripts or programs to the PATH for quick access.
+
+---
+
+### **What Happens Without PATH?**
+
+If a command isn’t in the PATH, you’ll see an error like:
+
+```bash
+command not found
+
+```
+
+To run it, you’ll need to provide the full path, like this:
+
+```bash
+/home/user/myprograms/myscript.sh
+
+```
+
+---
+
+### **Example Scenario**
+
+1. **Before Adding to PATH:**
+    
+    ```bash
+    /home/user/scripts/mytool
+    
+    ```
+    
+    Every time you need to type the full path.
+    
+2. **After Adding to PATH:**
+    - Add `/home/user/scripts` to your PATH.
+    
+    ```bash
+    export PATH=$PATH:/home/user/scripts
+    
+    ```
+    
+    - Now, you can just type:
+    
+    ```bash
+    mytool
+    
+    ```
+    
+
+---
+
+### **Best Practices**
+
+- Don’t clutter your PATH with unnecessary directories.
+- Place custom paths at the **end** to ensure system commands take priority.
+- Avoid adding directories with sensitive files to the PATH to prevent accidental execution.
+
+### **6. Environment vs Shell Variables**
 
 | **Environment Variables** | **Shell Variables** |
 | --- | --- |
@@ -113,7 +211,7 @@ Environment variables are dynamic values stored within the operating system, use
 
 ---
 
-### **6. Using Environment Variables in Scripts**
+### **7. Using Environment Variables in Scripts**
 
 ### **Example 1: Accessing an Environment Variable**
 
@@ -143,7 +241,7 @@ echo "Logging to $LOG_FILE"
 
 ---
 
-### **7. Best Practices**
+### **8. Best Practices**
 
 1. **Use Meaningful Names**:
     - Use uppercase letters for variable names (e.g., `DB_HOST`, `APP_PORT`).
@@ -165,7 +263,7 @@ echo "Logging to $LOG_FILE"
 
 ---
 
-### **8. Hands-On Practice**
+### **9. Hands-On Practice**
 
 ### **Task 1: Viewing Variables**
 
@@ -187,7 +285,7 @@ echo "Logging to $LOG_FILE"
 
 ---
 
-### **9. Key Takeaways**
+### **10. Key Takeaways**
 
 - Environment variables are essential for configuration management in Linux.
 - Use commands like `env`, `printenv`, and `export` to view and manipulate them.
